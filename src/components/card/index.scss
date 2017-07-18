@@ -1,0 +1,44 @@
+
+.card-conatianer{
+  display: flex;
+  flex-direction: column;
+  max-width: 890px;
+  padding: 40px 40px 20px 40px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  .card-top{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px dotted #cccccc;
+    .title {
+      flex-grow: 1;
+      padding: 60px 40px 20px 40px;
+    }
+    .author{
+      padding: 60px 40px 20px 40px;
+      border-left: 1px dotted #cccccc;
+      .time {
+        letter-spacing: 3px;
+        text-align: right;
+      }
+      .author-name {
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        cursor: pointer;
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .card-img-box{
+    padding: 40px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
