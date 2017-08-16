@@ -5,6 +5,7 @@ import { Router, Route, browserHistory, IndexRoute} from 'react-router';
 import App from './containers/layout';
 import Home from 'containers/home';
 import First from 'containers/first';
+import Begin from 'containers/begin';
 import Test from 'containers/test';
 import 'styles/index.scss';
 
@@ -13,6 +14,7 @@ const routes = (
     <Route path="/" component={App} >
       <IndexRoute component={Home} />
       <Route path="index" component={First} />
+      <Route path="suibi" component={Begin} />
     </Route>
     <Route path="test" component={Test} />
   </Route>
